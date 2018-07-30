@@ -1,0 +1,56 @@
+ <div class="my-container">
+ <nav class="navbar my-navbar navbar-expand-lg">
+        <a class="navbar-brand" href=""><i class="fas fa-globe-asia"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/losangeles']">Los Angeles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/newyork']">New York</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/tokyo']">Tokyo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/paris']">Paris</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/hongkong']">Hong Kong</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/sydney']">Sydney</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/dubai']">Dubai</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/seoul']">Seoul</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/london']">London</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/brazil']">Rio de Janeiro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/mexico']">Mexico City</a>
+                </li>
+            </ul>
+
+            <!-- <form (submit)='getUserInput(userInput.value)' class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" name="userInput" type="text" placeholder="Search" #userInput>
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" name="userInput">Search</button>
+            </form> -->
+        </div>
+    </nav>
+    </div>
+
+
+<!-- <app-query *ngIf='userInput' [userInput]='userInput'></app-query> -->
+
+<router-outlet></router-outlet>
+

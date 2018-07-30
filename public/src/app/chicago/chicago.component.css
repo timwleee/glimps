@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+.my-container{
+    background: url('https://images.unsplash.com/photo-1507608869274-d3177c8bb4c7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8ccfcc13bfcdfca6f54a8e043ffbe075&auto=format&fit=crop&w=1950&q=80');
+ }
+
+ h1 {
+     margin-top: 20%;
+     text-transform: none;
+     font-size: 4em;
+ }

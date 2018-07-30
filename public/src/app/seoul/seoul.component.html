@@ -1,0 +1,20 @@
+<div class="my-container">
+
+    <div class="weather-card" @fade>
+  
+      <div class="weather-card--details">
+        <p class="details--day">{{currentDate | date}}</p>
+        <span class="details--time"></span>
+      </div>
+  
+      <div class="weather-card--cityname">
+        <h1>{{seoul.name}}, {{seoul.sys.country}}</h1>
+      </div>
+  
+      <div class="weather-card--temperature">
+          <p class="current-temp">{{seoul.main.temp}}°</p>
+          <p class="outer-temp">{{seoul.weather[0].main}}</p>
+      </div>
+    </div>
+  
+  </div>

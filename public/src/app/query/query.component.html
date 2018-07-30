@@ -1,0 +1,29 @@
+<div class="weather-card" @fade>
+  <!-- <div class="weather-card--landmark">
+
+    <div class="landmark">
+    </div>
+
+    <div class="clouds">
+    </div>
+
+  </div> -->
+  <div class="weather-card--cityname">
+    <h1>{{userInput.name}}</h1>
+  </div>
+
+  <div class="weather-card--details">
+    <p class="details--day">{{currentDate | date}}</p>
+    <p class="details--date"> {{currentDate | date: "shortTime"}}</p>
+    <span class="details--time"></span>
+  </div>
+
+  <div class="weather-card--temperature">
+    <ul>
+      <li class="outer-temp">{{userInput.main.humidity}}</li>
+      <li class="current-temp">{{userInput.main.temp}}</li>
+      <li class="outer-temp">{{userInput.weather[0].description}}</li>
+    </ul>
+  </div>
+
+</div>
